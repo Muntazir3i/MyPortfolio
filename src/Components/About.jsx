@@ -18,9 +18,9 @@ function About() {
         <div className='bg-diagonal-lines name-intro md:w-1/3 border-solid border border-gray-800 p-9 rounded-2xl flex flex-col gap-3'>
         <h3 className='font-bold'>EXPERIENCE</h3>
         <div className='mt-2'>
-            <p className='text-gray-500 font-medium'>2025 - Present</p>
-            <p className='mt-1 text-lg font-medium'>Software Engineer</p>
-            <p className='text-gray-400 text-sm'>Google</p>
+            <p className='text-gray-500 font-medium'>2024 - Present</p>
+            <p className='mt-1 text-lg font-medium'>Freelance Developer</p>
+            {/* <p className='text-gray-400 text-sm'>MDOT</p> */}
         </div>
         <div className='mt-3'>
         <p className='text-gray-500 font-medium'>2023 - 2024</p>
@@ -51,7 +51,7 @@ function About() {
             </div>
         </div>
         <div
-        className="bg-diagonal-lines md:w-custom-width name-intro border-solid border border-gray-800 px-7 py-9 rounded-2xl flex flex-col justify-center gap-5">
+        className="bg-diagonal-lines md:w-custom-width name-intro border-solid border border-gray-800 px-7 py-9 rounded-2xl flex flex-col justify-center gap-6">
             <h2 className='text-4xl font-bold'>Tech Stack</h2>
             <div className="flex flex-wrap justify-between devicon-container">
             
