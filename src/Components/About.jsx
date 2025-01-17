@@ -69,8 +69,8 @@ function About() {
             <img className='w-10 md:w-20 hover:scale-125 transition-transform duration-300' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" />
             <img className='w-10 md:w-20 hover:scale-125 transition-transform duration-300' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-plain-wordmark.svg" />
             <img className='w-10 md:w-20 hover:scale-125 transition-transform duration-300' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wasm/wasm-original.svg" />
-            <img className='w-10 md:w-20hover:scale-125 transition-transform duration-300' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
-            <img className='w-10 md:w-20hover:scale-125 transition-transform duration-300' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" />
+            <img className='w-10 md:w-20 hover:scale-125 transition-transform duration-300' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
+            <img className='w-10 md:w-20 hover:scale-125 transition-transform duration-300' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" />
             </div>
             
         </div>
