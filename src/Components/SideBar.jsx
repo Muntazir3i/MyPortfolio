@@ -13,62 +13,36 @@ function SideBar() {
     <NavLink 
     onDoubleClick={toggleDark}
     to={'/'}  
-    // className={({ isActive }) => (isActive ? "text-white" : "text-red-500")}
     >
-    {({ isActive }) => (
         <HomeIcon 
-        // className={`size-7 ${
-        //     isActive ? "text-white" : "text-red-500"
-        // }  hover:text-white  hover:scale-125 transition-transform duration-300`}
-
         className= {`size-7 ${dark ? 'text-red-500 hover:text-white' : 'text-customText hover:text-black'}  hover:scale-125 transition-transform duration-300`}
         />
-    )}
     </NavLink>
 
     <NavLink 
     to={'/about'}  
     className={({ isActive }) => (isActive ? "text-white" : "text-red-500")}
     >
-    {({ isActive }) => (
         <IdentificationIcon
-        // className={`size-7 ${
-        //     isActive ? "text-white" : "text-red-500"
-        // } hover:text-white hover:scale-125 transition-transform duration-300`}
         className= {`size-7 ${dark ? 'text-red-500 hover:text-white' : 'text-customText hover:text-black'}  hover:scale-125 transition-transform duration-300`}
         />
-    )}
     </NavLink>
 
     <NavLink 
     to={'/projects'}  
     className={({ isActive }) => (isActive ? "text-white" : "text-red-500")}
     >
-    {({ isActive }) => (
         <PresentationChartBarIcon 
-        // className={`size-7 ${
-        //     isActive ? "text-white" : "text-red-500"
-        // } hover:text-white hover:scale-125 transition-transform duration-300`}
         className= {`size-7 ${dark ? 'text-red-500 hover:text-white' : 'text-customText hover:text-black'}  hover:scale-125 transition-transform duration-300`}
         />
-    )}
     </NavLink>
 
     <NavLink 
     to={'/blogs'}  
-    // className={({ isActive }) => (isActive ? "text-white" : "text-red-500")}
     >
-    {({ isActive }) => (
         <PencilIcon 
-        // className={`size-7 ${
-        //     isActive ? "text-white" : "text-red-500"
-        // } hover:text-white hover:scale-125 transition-transform duration-300`}
         className= {`size-7 ${dark ? 'text-red-500 hover:text-white' : 'text-customText hover:text-black'}  hover:scale-125 transition-transform duration-300`}
-        // className={({ isActive }) =>
-        //     `size-7 ${dark ? 'text-red-500' : 'text-customText'} ${isActive ? 'text-white' : ''} hover:text-white hover:scale-125 transition-transform duration-300`
-        //   }
         />
-    )}
     </NavLink>
 
 
