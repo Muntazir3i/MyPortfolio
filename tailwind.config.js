@@ -6,8 +6,13 @@ export default {
   ],
   theme: {
     extend: {
+      colors :{
+        customWhite :'#F7F9FC',
+        customText : '#5B78F6'
+      },
+
       height:{
-        'custom-height': '90%'
+        'custom-height': '91.9%'
       },
       width:{
         'custom-width': '95%'

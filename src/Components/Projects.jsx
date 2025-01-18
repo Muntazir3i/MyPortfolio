@@ -1,8 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
+import useTheme from './context/ThemeSwitch';
+
 
 function Projects() {
+  let {dark,setDark,toggleDark} = useTheme();
+
   return (
-    <main class="min-w-0 flex-1 overflow-auto text-white p-4">Projects</main>
+    
+    <main className= {`min-w-0 flex-1 overflow-auto p-4 text-white ${dark ? 'bg-black' : 'bg-customWhite'}`}>
+      Projects
+      <button
+      onClick={toggleDark}
+      className='border-solid border border-white'>Dark</button>
+      </main>
   )
 }
 
