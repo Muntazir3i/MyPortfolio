@@ -6,6 +6,12 @@ import useTheme from './context/ThemeSwitch'
 function NavHome() {
   let {dark,setDark,toggleDark} = useTheme();
 
+    const openResume = () => {
+      const resumeUrl = 'src/assets/MuntazirCv.pdf';  
+      window.open(resumeUrl, '_blank'); 
+
+    };
+
 
   return (
       <main
@@ -45,6 +51,7 @@ function NavHome() {
                    <span className={`${dark ? 'text-red-500' : 'text-customText'} font-bold`}>Frontend Engineer</span> using HTML, CSS, JavaScript,  React, and Nextjs. <span className={`${dark ? 'text-red-500' : 'text-customText'} font-bold`}>Backend </span>using Node, Express, MongoDb, Postgres & Prisma and Deploy. Can assist to build robust web, mobile, and desktop applications.
                    </p>
                    <button
+                   onClick={openResume}
                    className={`lg:w-1/4 mt-4 mb-3 rounded-full border border-slate-300 py-2 px-4 text-center text-sm transition-all shadow-sm hover:shadow-lg   hover:border-slate-800 focus:text-white focus:bg-slate-800 focus:border-slate-800 active:border-slate-800 active:text-white active:bg-slate-800 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none ${dark ? 'text-white hover:bg-white hover:text-red-500' : 'text-black hover:bg-white hover:text-customText'}`} type="button">
       Open Resume
     </button>
