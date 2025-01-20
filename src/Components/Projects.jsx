@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import useTheme from './context/ThemeSwitch';
-import { GithubCircle} from 'iconoir-react';
+import Card from './Card';
 
 
 function Projects() {
@@ -8,9 +8,12 @@ function Projects() {
 
   return (
     
-    <main className= {`min-w-0 h-screen flex justify-center items-center flex-1 overflow-auto p-4 text-white ${dark ? 'bg-black' : 'bg-customWhite'}`}>
-      
-       <a target="_blank" href="https://github.com/Muntazir3i"><GithubCircle height={66} width={66} className={` hover:scale-125 transition-transform duration-300 ${dark ? 'text-white hover:text-red-500' : 'text-black hover:text-customText'}`}></GithubCircle></a>
+    <main className= {`min-w-0 h-screen flex-1 overflow-auto p-4 text-white ${dark ? 'bg-black' : 'bg-customWhite'}`}>
+       <h1 className= {`text-7xl font-medium ${dark ? 'text-white' : 'text-black'} `}>PROJECTS</h1>
+      <div className=' mt-5 w-full h-full flex flex-col gap-5'>
+      <Card title = 'Habit Tracker' desp='A habit tracker app built with React, utilizing Context API for efficient global state management and Chart.js for interactive data visualization. It features reusable components, responsive design, and seamless performance, showcasing modern front-end development techniques. Ideal for tracking and analyzing habits with advanced tech integration.' link='https://muntazir3i.github.io/Habit-Tracker./' ></Card>
+      <Card title='Movie Search' desp='A movie search app built with React, utilizing Context API for efficient state management and OMDB API for fetching movie details dynamically. It features reusable components, responsive design, and real-time search capabilities, demonstrating modern front-end techniques and API integration for seamless user experience. Clone the repo and use it locally' link='https://github.com/Muntazir3i/Movie-Search'></Card>
+       </div>
       </main>
   )
 }

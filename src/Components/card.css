@@ -1,0 +1,8 @@
+#card-link{
+    transition: box-shadow ease-out 0.5s;
+    border: 1px solid gray;
+}
+
+#card-link:hover {
+    box-shadow: 0px 0px 12px 2px black;
+}
