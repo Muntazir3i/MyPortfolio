@@ -50,7 +50,7 @@ function About() {
             <div className='flex gap-8 mt-4'>
             <a target="_blank" href="https://github.com/Muntazir3i"><GithubCircle height={66} width={66} className={` hover:scale-125 transition-transform duration-300 ${dark ? 'text-white hover:text-red-500' : 'text-black hover:text-customText'}`}></GithubCircle></a>
             <a target="_blank" href="https://www.linkedin.com/in/mohammad-muntazir-5471572a1/"><Linkedin height={66} width={66}  className={` hover:scale-125 transition-transform duration-300 ${dark ? 'text-white hover:text-red-500' : 'text-black hover:text-customText'}`}></Linkedin></a>
-            <a target="_blank" href="mailto:mohammadmuntazir20@yahoo.com"><AtSymbolIcon className={` size-16  hover:scale-125 transition-transform duration-300 ${dark ? 'text-white hover:text-red-500' : 'text-black hover:text-customText'}`}></AtSymbolIcon></a>
+            <a target="_blank" href="mailto:mohammadmuntazir5@gmail.com"><AtSymbolIcon className={` size-16  hover:scale-125 transition-transform duration-300 ${dark ? 'text-white hover:text-red-500' : 'text-black hover:text-customText'}`}></AtSymbolIcon></a>
             </div>
         </div>
         <div
