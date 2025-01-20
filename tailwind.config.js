@@ -12,7 +12,8 @@ export default {
       },
 
       height:{
-        'custom-height': '91.9%'
+        'custom-height': '91.9%',
+        'custom-height-two': '90%',
       },
       width:{
         'custom-width': '95%'
