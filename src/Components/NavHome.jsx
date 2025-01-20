@@ -7,7 +7,7 @@ function NavHome() {
   let {dark,setDark,toggleDark} = useTheme();
 
     const openResume = () => {
-      const resumeUrl = 'public/MuntazirCv.pdf';  // link of pdf  
+      const resumeUrl = '/MuntazirCv.pdf';  // link of pdf  
       window.open(resumeUrl, '_blank'); 
 
     };
