@@ -21,12 +21,12 @@ function About() {
         <div className={`name-intro md:w-1/3 px-7 py-5 rounded-2xl flex flex-col justify-center gap-3 ${dark ? 'bg-diagonal-lines border-solid border border-gray-800 ' : 'bg-white'} `}>
         <h3 className={`font-bold ${dark ? 'text-white' : 'text-black'}`}>EXPERIENCE</h3>
         <div className='mt-2'>
-            <p className='text-gray-500 font-medium'>2024 - Present</p>
+            <p className='text-gray-500 font-medium'>2023 - Present</p>
             <p className={`mt-1 text-lg font-medium ${dark ? 'text-white' : 'text-customText'}`}>Freelance Developer</p>
             {/* <p className='text-gray-400 text-sm'>MDOT</p> */}
         </div>
         <div className='mt-3'>
-        <p className='text-gray-500 font-medium'>2023 - 2024</p>
+        <p className='text-gray-500 font-medium'>Mar 2024 - Nov 2024</p>
             <p className={`mt-1 text-lg font-medium ${dark ? 'text-white' : 'text-customText'}`}>Senior Code Instructor</p>
             <p className='text-gray-400 text-sm'>ILS Srinagar</p>
         </div>
