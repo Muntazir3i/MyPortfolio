@@ -7,7 +7,7 @@ function SideBar() {
     let {dark,setDark,toggleDark} = useTheme();
 
   return (
-    <aside class={`border-solid border-t border-slate-500 md:border-none  fixed bottom-0 w-full md:relative md:fixed md:top-0 md:left-0 md:w-32 p-4 flex justify-center items-center md:flex-col gap-5 ${dark ? 'bg-black' : 'bg-customWhite'}`}>
+    <aside class={`h-[10vh] md:h-[100vh] border-solid border-t border-slate-500 md:border-none  fixed bottom-0 w-full md:relative md:fixed md:top-0 md:left-0 md:w-32 p-4 flex justify-center items-center md:flex-col gap-5 ${dark ? 'bg-black' : 'bg-customWhite'}`}>
 
   
     <NavLink 
