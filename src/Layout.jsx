@@ -5,7 +5,7 @@ import { ThemeProvider } from './Components/context/ThemeSwitch'
 import { useState } from 'react'
 
 function Layout() {
-    let [dark,setDark] = useState(true)
+    let [dark,setDark] = useState(false)
     const toggleDark = ()=>setDark((prevVal)=> !prevVal)
 
   return (
