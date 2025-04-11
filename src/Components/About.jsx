@@ -10,8 +10,7 @@ function About() {
     let {dark,setDark,toggleDark} = useTheme();
   return (
     <main
-    // style={{height:'90%'}}
-     class={`h-custom-height md:h-screen min-w-0 flex-1 overflow-auto text-white p-4 ${dark ? 'bg-black' : 'bg-customWhite'}`}>
+     class={`h-[90vh] md:h-screen min-w-0 flex-1 overflow-auto text-white p-4 ${dark ? 'bg-black' : 'bg-customWhite'}`}>
         <h1 className= {`text-7xl font-medium ${dark ? 'text-white' : 'text-black'} `}>SELF-SU<span className={`${dark ? 'text-red-500' : 'text-customText'}`}>MM</span>ARY</h1>
     <div className='  mt-5 flex flex-col md:flex-row flex-wrap gap-4 '>
         <div className= {`name-intro md:w-3/5  px-7 py-5 rounded-2xl flex flex-col justify-center gap-3 ${dark ? 'bg-diagonal-lines border-solid border border-gray-800 ' : 'bg-white'} `}>

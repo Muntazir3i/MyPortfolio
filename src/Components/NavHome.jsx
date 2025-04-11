@@ -16,7 +16,7 @@ function NavHome() {
   return (
       <main
       
-      className={` h-custom-height md:h-screen min-w-0 flex-1 flex overflow-auto p-4 ${dark ? 'bg-black text-white' : 'bg-customWhite text-black'}`}>
+      className={` h-[90vh] md:h-screen min-w-0 flex-1 flex overflow-auto p-4 ${dark ? 'bg-black text-white' : 'bg-customWhite text-black'}`}>
       <div 
       // style={{height:'80%'}}
       className='flex flex-col md:items-center md:justify-center  md:flex-row md:gap-6 '>
