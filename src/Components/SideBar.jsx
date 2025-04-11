@@ -37,13 +37,7 @@ function SideBar() {
         />
     </NavLink>
 
-    <NavLink 
-    to={'/blogs'}  
-    >
-        <PencilIcon 
-        className= {`size-7 ${dark ? 'text-red-500 hover:text-white' : 'text-customText hover:text-black'}  hover:scale-125 transition-transform duration-300`}
-        />
-    </NavLink>
+  
 
 
   
