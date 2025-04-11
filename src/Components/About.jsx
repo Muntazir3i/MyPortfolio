@@ -15,7 +15,7 @@ function About() {
     <div className='  mt-5 flex flex-col md:flex-row flex-wrap gap-4 '>
         <div className= {`name-intro md:w-3/5  px-7 py-5 rounded-2xl flex flex-col justify-center gap-3 ${dark ? 'bg-diagonal-lines border-solid border border-gray-800 ' : 'bg-white'} `}>
             <h2 className= {`text-4xl font-bold ${dark ? 'text-white' : 'text-black'}`}><span className={`${dark ? 'text-red-500' : 'text-customText'}`}>M</span>ohammad <span className={`${dark ? 'text-red-500' : 'text-customText'}`}>M</span>untazir</h2>
-            <p className= {`font-light ${dark ? 'text-white' : 'text-gray-500'}`}>Tinkering with computers since I was a kid, breaking 'em just to learn how to fix 'em. I write code like it's poetry, but don’t get it twisted, I’m here to build, break, and rebuild better. I think in Web, hustle in lines of JavaScript, For me, it’s not just about the code—it’s about making the system work for me. Every project I touch? It’s got my signature, raw and unapologetic.</p>
+            <p className= {`font-light  ${dark ? 'text-white' : 'text-black'}`}>Tinkering with computers since I was a kid, breaking 'em just to learn how to fix 'em. I write code like it's poetry, but don’t get it twisted, I’m here to build, break, and rebuild better. I think in Web, hustle in lines of JavaScript, For me, it’s not just about the code—it’s about making the system work for me. Every project I touch? It’s got my signature, raw and unapologetic.</p>
         </div>
         <div className={`name-intro md:w-1/3 px-7 py-5 rounded-2xl flex flex-col justify-center gap-3 ${dark ? 'bg-diagonal-lines border-solid border border-gray-800 ' : 'bg-white'} `}>
         <h3 className={`font-bold ${dark ? 'text-white' : 'text-black'}`}>EXPERIENCE</h3>

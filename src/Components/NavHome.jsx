@@ -31,23 +31,23 @@ function NavHome() {
             className='flex justify-center flex-col gap-8 md:gap-4 md:w-2/4 '
             >
                 <h1 
-                className= 'mt-5 md:mt-0 text-2xl text-center md:text-left md:text-2xl lg:text-3xl xl:text-4xl font-opensans '
+                className= 'mt-5 md:mt-0 text-2xl text-center md:text-left md:text-2xl lg:text-3xl xl:text-4xl  '
                 >Hey, I'm <span
                 id='main-name'
                 className={`${dark ? 'text-red-500 hover:text-white' : 'text-customText hover:text-black'}
-                font-bold
+                
                  ease-out duration-300
                  `}
                 >Mohammad Muntazir</span></h1>
                 <p
-                className='text-center md:text-left md:text-sm lg:text-xl xl:text-2xl font-sourcecode font-light∏ '
+                className='text-center md:text-left md:text-sm lg:text-xl xl:text-2xl  font-medium '
                 >
                     <span
-                    className='text-xl md:text-2xl xl:text-4xl italic font-bold'
+                    className='text-xl md:text-2xl xl:text-4xl font-bold'
                     >Full-stack Developer</span>
                    </p>
     
-                   <p className='text-center md:text-left font-sourcecode text-lg '>
+                   <p className='text-center md:text-left text-lg '>
                    <span className={`${dark ? 'text-red-500' : 'text-customText'} font-bold`}>Frontend Engineer</span> using HTML, CSS, JavaScript,  React, and Nextjs. <span className={`${dark ? 'text-red-500' : 'text-customText'} font-bold`}>Backend </span>using Node, Express, MongoDb, Postgres & Prisma and Deploy. Can assist to build robust web, mobile, and desktop applications.
                    </p>
                    <button
